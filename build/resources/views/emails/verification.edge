@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Verify Your Email</title>
+  </head>
+  <body>
+    <h2>Hello {{ user.firstName }} 👋</h2>
+    <p>Thank you for registering with Payfixy Library.</p>
+    <p>Please verify your email address by clicking the link below:</p>
+    <a href="https://your-frontend-url.com/verify?token={{ user.verificationToken }}">
+      Click here to verify
+    </a>
+    <p>This link will expire in 1 hour.</p>
+    <p>Thank you!</p>
+  </body>
+</html>
