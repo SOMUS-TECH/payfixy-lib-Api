@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Book Return Reminder</title>
+  </head>
+  <body>
+    <h2>Hello {{ user.firstName }},</h2>
+    <p>This is a kind reminder that your borrowed book <strong>{{ book.title }}</strong> is due for return in 2 days.</p>
+    <p><strong>Due Date:</strong> {{ dueDate.toFormat('DDD') }}</p>
+    <p>Please ensure you return it on or before the due date to avoid penalties.</p>
+    <br>
+    <p>Thank you,<br>Payfixy Library</p>
+  </body>
+</html>
